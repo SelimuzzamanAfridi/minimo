@@ -1,0 +1,188 @@
+/*common start*/
+body{
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+
+
+
+/*header start*/
+header{
+	padding: 35px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	width: 7%;
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+    width: 60%;
+    float: right;
+}
+.menu ul{
+	float: right;
+	margin: 0;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+    text-transform: uppercase;
+    
+}
+.menu ul li a{
+	text-decoration: none;
+    display: inline-block;
+    padding: 5px 50px;
+    color: #626262;    
+}
+.menu ul li:last-child a {
+	padding-right: 0 50px;
+} 
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+
+/*banner end*/
+
+
+
+/*massage start*/
+.massage{
+	padding: 100px 0 40px;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+.light{
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.title{
+	margin: 15px  0 25px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.text{
+	margin: 0;
+	line-height: 24px;
+}
+.mt40{
+	margin-top: 40px;
+}
+/*massage end*/
+/*blog start*/
+.blog{
+	padding: 0 0 100px;
+}
+.s_blog{
+	margin-top: 60px;
+	width: 47%;
+    float: left;
+} 
+.s_blog:nth-child(even){
+    margin-left: 6%;
+}
+.s_img{
+	margin-bottom: 20px;
+}
+.s_img img{
+	width: 100%;
+}
+/*blog end*/
+
+
+/*news start*/
+.news{
+	min-height: 280px;
+	background: #f0f0f0;
+}
+/*news end*/
+
+
+/*blog2 start*/
+.blog2{
+	padding-top: 40px;
+}
+.load{
+	margin: 100px 0;
+	text-align: center;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    background: transparent;
+    border: 1px solid #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+    }
+.load button:hover{
+	background-color: #626262;
+	color: white;
+}
+/*blog2 end*/
+
+
+/*footer start*/
+footer{	
+	background: #f0f0f0;
+	height: 90px;
+	overflow: hidden;
+}
+.container3{
+	
+}
+.pages{}
+.pages ul{}
+.pages ul li{
+	margin-top: 20px;
+	float: left;
+	list-style: none;
+}
+.pages ul li a{
+	color: #000000;
+	text-decoration: none;
+	display: inline-block;	
+	padding: 0 10px;
+}
+.media{}
+.media ul{}
+.media ul li{
+    margin-top: 25px;
+    color: #000000;
+	list-style: none;
+    float: right;
+}
+.media ul li a{
+	margin: 0 8px;
+}
+/*footer end*/
+
+
+
